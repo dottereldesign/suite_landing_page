@@ -109,3 +109,32 @@ a:hover {
 
 a:active {
 }
+
+body {
+  background-color: var(--clr-neutral-100);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer > img {
+  width: 81px;
+  height: auto;
+}
+
+footer small {
+  display: block;
+  margin-top: 2em;
+}
+
+.footer_icons {
+  display: flex;
+  margin: 2em 0 4em 0;
+}
+
+.footer_icons img:nth-child(even) {
+  margin: 0 1.5em 0 1.5em;
+}
