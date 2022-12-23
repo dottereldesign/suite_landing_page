@@ -189,6 +189,20 @@ main picture img {
   margin: 0 auto 0 auto;
 }
 
+@media (min-width: 48em) {
+  main picture img {
+    width: min(100%, 281px);
+    margin: 0 auto 0 auto;
+  }
+}
+
+@media (min-width: 90em) {
+  main picture img {
+    width: min(100%, 350px);
+    margin: 0 auto 0 auto;
+  }
+}
+
 /* statistics section */
 .statistics {
   display: flex;
@@ -244,6 +258,10 @@ main picture img {
   top: -174px;
 }
 
+.card picture img {
+  width: 243px;
+}
+
 .card h3 {
   color: var(--clr-neutral-200);
   font-size: var(--fs-800);
@@ -278,6 +296,12 @@ main picture img {
   margin-top: 4px;
 }
 
+@media (min-width: 90em) {
+  .card picture img {
+    width: 361px;
+  }
+}
+
 /* footer */
 footer {
   display: flex;
@@ -285,13 +309,13 @@ footer {
   align-items: center;
 }
 
-footer > img {
+footer > a {
   width: 81px;
   height: auto;
   margin-top: 48px;
 }
 
-footer > img:hover {
+.footer_icons img:hover {
   opacity: 50%;
 }
 
@@ -299,15 +323,22 @@ footer small {
   display: block;
   margin-top: 2em;
   font-size: var(--fs-400);
+  color: var(--clr-neutral-300);
 }
 
 .footer_icons {
   display: flex;
   margin: 2em 0 4em 0;
+  align-items: center;
 }
 
-.footer_icons img:nth-child(even) {
-  margin: 0 1.5em 0 1.5em;
+.footer_icons a {
+  width: 20px;
+  height: auto;
+}
+
+.footer_icons a:nth-child(even) {
+  margin: 0 24px 0 24px;
 }
 
 @media (min-width: 48em) {
@@ -317,7 +348,7 @@ footer small {
     margin: 64px 16px 64px 16px;
   }
 
-  footer > img {
+  footer a {
     margin-top: 0;
   }
 
