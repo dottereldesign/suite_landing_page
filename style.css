@@ -117,13 +117,76 @@ body {
   background-color: var(--clr-neutral-100);
 }
 
+/* header */
+header {
+  margin: 24px 16px 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* buttons */
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--clr-neutral-300);
+  font-weight: var(--fw-bold);
+  padding: 14px;
+  border: 1px solid var(--clr-neutral-300);
+  border-radius: 8px;
+  font-size: var(--fs-400);
+}
+
+/* main */
+main {
+  margin: 64px 16px 0 16px;
+}
+
+main h1 {
+  color: var(--clr-neutral-300);
+  font-size: var(--fs-900);
+  font-weight: var(--fw-medium);
+  line-height: 1.1;
+}
+
+main h1 span {
+  font-weight: var(--fw-bold);
+}
+
+main p {
+  color: var(--clr-neutral-400);
+  font-size: var(--fs-500);
+  font-weight: var(--fw-regular);
+}
+
+main a {
+  display: inline-block;
+  font-size: var(--fs-500);
+  text-decoration: none;
+  color: var(--clr-neutral-100);
+  font-weight: var(--fw-bold);
+  padding: 18px 32px 18px 32px;
+  border: 1px solid var(--clr-neutral-300);
+  border-radius: 8px;
+  background-color: var(--clr-neutral-300);
+  margin-top: 32px;
+}
+
+main picture {
+  margin-top: 64px;
+}
+
+main picture img {
+  width: min(100%, 343px);
+  margin: 0 auto 0 auto;
+}
 
 /* statistics section */
 .statistics {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 24px;
 }
 
 .statistics h2 {
@@ -145,7 +208,7 @@ body {
 /* article card */
 .card {
   background-color: var(--clr-neutral-300);
-  margin: 256px 1em 0 1em;
+  margin: 232px 1em 0 1em;
   border-radius: 15px;
   display: flex;
   align-items: center;
