@@ -96,6 +96,7 @@ select {
 
 * {
   font-size: inherit;
+  font-family: var(--ff-primary-100);
 }
 
 a:link {
@@ -128,6 +129,7 @@ footer > img {
 footer small {
   display: block;
   margin-top: 2em;
+  font-size: var(--fs-300);
 }
 
 .footer_icons {
