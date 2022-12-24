@@ -134,7 +134,7 @@ header {
   color: var(--clr-neutral-100);
 }
 
-@media (min-width: 90em) {
+@media (min-width: 71.3125em) {
   header {
     width: 1109px;
     margin: 24px auto 0 auto;
@@ -218,16 +218,17 @@ main picture img {
   }
 }
 
-@media (min-width: 90em) {
+@media (min-width: 71.3125em) {
   .main_grid-desktop {
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns: 1fr 285px;
     margin-top: 64px;
     width: 1109px;
     margin: 64px auto 0 auto;
   }
 
   main {
+    gap: 32px;
     grid-template-columns: 1fr 350px;
     margin: 0;
   }
@@ -287,12 +288,12 @@ main picture img {
   }
 }
 
-@media (min-width: 90em) {
+@media (min-width: 71.3125em) {
   .statistics {
     display: block;
     margin-top: 0;
     margin: auto;
-    width: 400px;
+    width: 285px;
   }
 
   .statistics_container:first-child > h2 {
@@ -355,9 +356,9 @@ main picture img {
   margin-top: 4px;
 }
 
-@media (min-width: 90em) {
+@media (min-width: 71.3125em) {
   .card {
-    margin: 232px auto 0 auto;
+    margin: 174px auto 0 auto;
     display: grid;
     grid-template-columns: 110px 361px 130px 1fr 110px;
     align-items: center;
@@ -369,6 +370,10 @@ main picture img {
     padding: 0;
   }
 
+  .card h3 {
+    margin-top: 0px;
+  }
+
   .card picture {
     grid-column-start: 2;
     grid-column-end: 3;
@@ -377,7 +382,7 @@ main picture img {
   .card > img {
     grid-column-start: 3;
     grid-column-end: 4;
-    margin: 0 auto 150px auto;
+    margin: 0 auto 182px auto;
   }
 
   .column_4-5 {
@@ -454,7 +459,7 @@ footer small {
   }
 }
 
-@media (min-width: 90em) {
+@media (min-width: 71.3125em) {
   footer {
     width: 1109px;
     margin: 64px auto;
