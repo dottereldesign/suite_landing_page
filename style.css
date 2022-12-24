@@ -313,6 +313,11 @@ main picture img {
   position: relative;
 }
 
+.column_4-5 {
+  text-align: center;
+  max-inline-size: 75ch;
+}
+
 .card picture {
   position: absolute;
   top: -174px;
