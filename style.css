@@ -358,13 +358,31 @@ main picture img {
 @media (min-width: 90em) {
   .card {
     margin: 232px auto 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: 110px 361px 130px 1fr 110px;
     align-items: center;
     flex-direction: column;
     padding: 0 16px 48px 16px;
     position: relative;
     height: 545px;
     width: 1109px;
+    padding: 0;
+  }
+
+  .card picture {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
+
+  .card > img {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: 0 auto 150px auto;
+  }
+
+  .column_4-5 {
+    grid-column-start: 4;
+    grid-column-end: 5;
   }
 
   .card picture img {
