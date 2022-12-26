@@ -200,16 +200,19 @@ main picture img {
   main {
     display: grid;
     grid-template-columns: 1fr 281px;
+    gap: 16px;
   }
 
   main article {
     grid-column-start: 1;
     grid-column-end: 2;
+    margin: auto;
   }
 
   main picture {
     grid-column-start: 2;
     grid-column-end: 3;
+    margin: auto;
   }
 
   main picture img {
